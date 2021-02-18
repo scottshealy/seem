@@ -1,0 +1,19 @@
+{
+  "name": "seem",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme built for the Southeast Energy Exchange Market website. Site design by William Brown (w.brown@dominionenergy.com) and developed by Scott Shealy (scott.shealy@dominionenergy.com).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottshealy/seem.git"
+  },
+  "author": "Scott Shealy, Dominion Energy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/scottshealy/seem/issues"
+  },
+  "homepage": "https://github.com/scottshealy/seem#readme"
+}
