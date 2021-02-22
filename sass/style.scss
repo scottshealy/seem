@@ -9,3 +9,29 @@
  * License: GNU General Public v3 or Later
  * License URI: http://www.gnu.org/license/gpl-3.0.html
 **/
+
+// @IMPORT | THEME SETTINGS
+    @import "theme/settings";
+
+// @IMPORT | EXTERNAL
+    @import "external/bootstrap";
+    @import "external/font-awesome";
+
+// @IMPORT | PLUGINS
+    @import "plugins/elementor";
+
+// @IMPORT | PARTS
+    @import "parts/header";
+    @import "parts/footer";
+    @import "parts/hero";
+    @import "parts/banner-links";
+
+// @IMPORT | PAGES
+    @import "pages/index";
+    @import "pages/newsroom";
+    @import "pages/articles";
+    @import "pages/filings-docs";
+    @import "pages/faq";
+    @import "pages/stakeholders";
+    @import "pages/contact";
+    @import "pages/privacy";

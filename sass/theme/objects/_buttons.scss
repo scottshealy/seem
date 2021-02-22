@@ -1,0 +1,287 @@
+/**
+    * sass/theme/objects/buttons.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// LISTS
+    $button-solid: ".button, .button-solid, .button-form, .elementor-button, .btn-slider, input.wpcf7-form-control.wpcf7.submit";
+    $button-alt: ".button-alt";
+    $button-ghost: ".button-ghost";
+    $button-mobile: ".button-mobile";
+    $button-all: "#{$button-solid}, #{$button-alt}, #{$button-ghost}, #{$button-mobile}";
+
+// BUTTON-ALL
+    // SETTINGS
+        $button-text-size: $body-text-size;
+        $button-text-style: capitalize;
+        $button-font-weight: 700;
+
+    // STYLES
+        #{$button-all} {
+            // GLOBAL
+                display: inline-block;
+                margin: $margin-sm $margin-xxs;
+                padding: $padding-xxs $padding-sm;
+                font-family: $button-font;
+                font-size: $button-text-size;
+                font-weight: $button-font-weight;
+                text-transform: $button-text-style;
+                text-align: center;
+
+                &:hover {
+                    cursor: pointer;
+                } //:HOVER
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            i {
+                // GLOBAL
+                    display: inline-block;
+                    margin-left: $margin-none;
+                    margin-right: $margin-xxs;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //I
+        } //BUTTON-ALL
+
+// BUTTON-SOLID
+    // SETTINGS
+        $button-solid-color: $button-color;
+        $button-solid-text-color: mix($color-adjustment-light, $button-solid-color, $color-adjustment * 12);
+        $button-solid-border: 1px solid mix($color-adjustment-dark, $button-solid-color, $color-adjustment * 1);
+        
+        $button-solid-hover-color: mix($color-adjustment-light, $button-solid-color, $color-adjustment * 3); 
+        $button-solid-hover-text-color: $button-solid-text-color;
+        $button-solid-hover-border: 1px solid $button-solid-color;
+
+    // STYLES
+        #{$button-solid} {
+            // GLOBAL
+                background-color: $button-solid-color;
+                border: $button-solid-border;
+                color: $button-solid-text-color;
+
+                &:hover {
+                    background-color: $button-solid-hover-color;
+                    border: $button-solid-hover-border;
+                    color: $button-solid-hover-text-color;
+                } //:HOVER
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            i {
+                // GLOBAL
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //I
+        } //BUTTON-SOLID
+
+// BUTTON-ALT
+    // SETTINGS
+        $button-alt-color: $color-grayscale-light-12;
+        $button-alt-text-color: $button-color;
+        $button-alt-border: 1px solid $button-color;
+        
+        $button-alt-hover-color: $button-color; 
+        $button-alt-hover-text-color: $color-grayscale-light-12;
+        $button-alt-hover-border: 1px solid $color-grayscale-light-12; 
+
+    // STYLES
+        #{$button-alt} {
+            // GLOBAL
+                background-color: $button-alt-color;
+                border:$button-alt-border;
+                color: $button-alt-text-color;
+
+                &:hover {
+                    background-color: $button-alt-hover-color;
+                    border: $button-alt-hover-border;
+                    color: $button-alt-hover-text-color;
+                } //:HOVER
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            i {
+                // GLOBAL
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //I
+        } //BUTTON-ALT
+
+// BUTTON-GHOST
+    // SETTINGS
+        $button-ghost-color: transparent;
+        $button-ghost-text-color: $button-color;
+        $button-ghost-border: 1px solid $button-color;
+        
+        $button-ghost-hover-color: $button-color; 
+        $button-ghost-hover-text-color: mix($color-adjustment-light, $button-color, $color-adjustment * 12);
+        $button-ghost-hover-border: 1px solid mix($color-adjustment-dark, $button-color, $color-adjustment * 1);
+
+    // STYLES
+        #{$button-ghost} {
+            // GLOBAL
+                background-color: $button-ghost-color;
+                border: $button-ghost-border;
+                color: $button-ghost-text-color;
+
+                &:hover {
+                    background-color: $button-ghost-hover-color;
+                    border: $button-ghost-hover-border;
+                    color: $button-ghost-hover-text-color;
+                } //:HOVER
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            i {
+                // GLOBAL
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //I
+        } //BUTTON-GHOST
+
+// BUTTON-MOBILE
+    // SETTINGS
+        $button-mobile-color: $button-color;
+        $button-mobile-text-color: mix($color-adjustment-light, $button-mobile-color, $color-adjustment * 12);
+        $button-mobile-border: 1px solid mix($color-adjustment-dark, $button-mobile-color, $color-adjustment * 1);
+        
+        $button-mobile-hover-color: mix($color-adjustment-light, $button-mobile-color, $color-adjustment * 3); 
+        $button-mobile-hover-text-color: $button-mobile-text-color;
+        $button-mobile-hover-border: 1px solid $button-mobile-color;
+
+    // STYLES
+        #{$button-mobile} {
+            // GLOBAL
+                width: 100.00%;
+                display: block;
+                margin: $margin-none auto;
+                background-color: $button-mobile-color;
+                border: $button-mobile-border;
+                color: $button-mobile-text-color;
+
+                &:hover {
+                    background-color: $button-mobile-hover-color;
+                    border: $button-mobile-hover-border;
+                    color: $button-mobile-hover-text-color;
+                } //:HOVER
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {
+                    display: none !important;
+                } //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            i {
+                // GLOBAL
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //I
+        } //BUTTON-MOBILE

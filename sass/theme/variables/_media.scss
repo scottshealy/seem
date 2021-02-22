@@ -1,0 +1,77 @@
+/**
+    * sass/theme/variables/media.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// SCREENS
+    $screen-xs: "(max-width: 575px)";
+    $screen-sm: "(min-width: 576px)";
+    $screen-md: "(min-width: 768px)";
+    $screen-lg: "(min-width: 992px)";
+    $screen-xl: "(min-width: 1200px)";
+
+// DEVICES
+    $device-phone: "(max-width: 575px)";
+    $device-tablet: "(min-width: 576px) and (max-width: 991px)";
+    $device-mobile: "(max-width: 991px)";
+    $device-desktop: "(min-width: 992px)";
+    $device-desktop-sm: "(min-width: 992px)";
+    $device-desktop-md: "(min-width: 1200px)";
+    $device-desktop-lg: "(min-width: 1920px)";
+    $device-desktop-xl: "(min-width: 3840px)";
+
+// DISPLAYS
+    $display-retina: "(-webkit-min-device-pixel-ratio: 2.00), (min-resolution: 192dpi)";
+
+// BROWSERS
+    $browser-mozilla: "all and (min-moz-device-pixel-ratio: 0) and (min-resolution: 3e1dpcm)";
+    $browser-ie: "screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none)";
+    $browser-webkit: "-webkit-min-device-pixel-ratio: 0";
+
+// MENUS
+    $menu-mobile: $device-mobile;
+    $menu-desktop: $device-desktop;
+
+// TEMPLATES
+    // MEDIA
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+    // DEVICES
+        // GLOBAL
+        // MOBILE
+            @media #{$device-phone} {} //PHONE
+            @media #{$device-tablet} {} //TABLET
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //DESKTOP
+            @media #{$device-desktop-sm} {} //DESKTOP-SM
+            @media #{$device-desktop-md} {} //DESKTOP-MD
+            @media #{$device-desktop-lg} {} //DESKTOP-LG
+            @media #{$device-desktop-xl} {} //DESKTOP-XL
+
+    // MENUS
+        // GLOBAL
+        // MOBILE
+            @media #{$menu-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$menu-desktop} {} //DESKTOP
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE

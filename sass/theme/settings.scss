@@ -1,0 +1,95 @@
+/**
+    * sass/theme/settings.scss
+    * @package seem
+    * @author Scott Shealy
+    * @version 1.0.0
+    * @copyright 02/21
+**/
+
+// THEME PATH
+    $theme-path: "/wp-content/themes/seem";
+
+// COLORS
+    // BASE SETTINGS
+    // @IMPORT | PARTIALS
+        @import "variables/colors";
+
+// UNITS
+    // BASE SETTINGS
+        $base-unit: 1.00rem;
+        $site-width-min: 100.00%;
+        $site-width-max: 100.00%;
+        $site-width-content: 960px;
+
+    // @IMPORT | PARTIALS
+        @import "variables/units";
+
+// MEDIA QUERIES
+    // BASE SETTINGS
+    // @IMPORT | PARTIALS
+        @import "variables/media";
+
+// TEXT
+    // BASE SETTINGS
+        // FONT STACKS
+            $font-sans: "Open Sans", Helvetica, Arial, sans-serif;
+            $font-serif: "Roboto Slab", Georgia, serif;
+        
+        // HEADINGS
+            $heading-text: $font-serif;
+            $heading-text-color: #333333;
+            $heading-text-weight: 700;
+        
+        // BODY
+            $body-text: $font-sans;
+            $body-text-color: #666666;
+            $body-text-weight: 400;
+
+        // LINKS
+            $text-link-color: #003366;
+
+    // @IMPORT | PARTIALS
+        @import "objects/text";
+
+// LAYOUTS
+    // BASE SETTINGS
+        $body-background-color: $color-grayscale-light-12;
+        $body-mobile-gutter: $base-unit * 0.50;
+
+    // @IMPORT | PARTIALS
+        @import "layouts/site";
+        @import "layouts/clearfix";
+        @import "layouts/devices";
+        @import "layouts/flexbox";
+        @import "layouts/wrappers";
+        @import "objects/images";
+        @import "objects/videos";
+
+// BUTTONS
+    // BASE SETTINGS
+        $button-color: #00863d;
+        $button-font: $font-sans;
+
+    // @IMPORT | PARTIALS
+        @import "objects/buttons";
+
+// BORDERS
+    // BASE SETTINGS
+        $border-width: 0.25rem;
+        $border-radius: 0.00rem;
+        $border-color: $color-grayscale-light-12;
+
+    // @IMPORT | PARTIALS
+
+// SHADOWS
+    // BASE SETTINGS
+        $shadow-main: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.10);
+
+    // @IMPORT | PARTIALS
+
+// FORMS
+    // BASE SETTINGS
+        $form-font: $body-text;
+        $form-input-color: $color-grayscale-light-10;
+        
+    // @IMPORT | PARTIALS
