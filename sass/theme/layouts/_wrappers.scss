@@ -102,7 +102,7 @@
 
         // DESKTOP
             @media #{$screen-lg} {
-                padding: $padding-xs $padding-none;
+                padding: $padding-sm $padding-none;
             } //.COL-LG
             @media #{$screen-xl} {} //.COL-XL
 
@@ -125,7 +125,7 @@
 
         // DESKTOP
             @media #{$screen-lg} {
-                padding: $padding-xs $padding-none;
+                padding: $padding-sm $padding-none;
             } //.COL-LG
             @media #{$screen-xl} {} //.COL-XL
 

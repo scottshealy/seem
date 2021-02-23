@@ -196,7 +196,7 @@
         $body-text-size: $font-size-base;
         $body-text-height: $line-height-normal;
         $body-text-spacing: $letter-spacing-normal;
-        $body-text-margin: $margin-sm;
+        $body-text-margin: $margin-xs;
 
     // STYLES
         #{$text-body-all} {
@@ -281,9 +281,11 @@
         #{$text-links} {
             // GLOBAL
                 color: $text-link-color;
+                text-decoration: none;
 
                 &:hover {
                     color: $text-link-hover-color;
+                    text-decoration: none;
                 } //:HOVER
 
             // MOBILE

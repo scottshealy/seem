@@ -26,7 +26,9 @@
 
 html {
     // GLOBAL
+        height: 100.00%;
         width: 100.00vw;
+        position: relative;
 
     // MOBILE
         @media #{$screen-xs} {} //.COL-XS
@@ -44,7 +46,9 @@ html {
 
 body {
     // GLOBAL
+        height: 100.00%;
         width: 100.00%;
+        position: relative;
         margin: $margin-none;
         padding: $padding-none;
         background-color: $body-background-color;

@@ -8,9 +8,13 @@
     **/
 ?>
 
-<!-- THEME -->
-<!-- WP-FOOTER -->
-<?php wp_footer(); ?>
+<div id="footer-scripts">
 
-<!-- FRAMEWORK -->
-<?php include(get_template_directory()."/php/theme/scripts/external/bootstrap/footer.php"); ?>
+    <!-- WP-FOOTER -->
+    <?php wp_footer(); ?>
+    
+    <!-- THEME -->
+    <!-- FRAMEWORK -->
+    <?php include(get_template_directory()."/php/theme/scripts/external/bootstrap/footer.php"); ?>
+
+</div>
