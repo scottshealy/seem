@@ -21,6 +21,7 @@ footer {
     // DESKTOP
         @media #{$screen-lg} {} //.COL-LG
         @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
 
     // BROWSERS
         @media #{$browser-ie} {} //IE
@@ -36,6 +37,7 @@ footer {
         // DESKTOP
             @media #{$screen-lg} {} //.COL-LG
             @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
 
         // BROWSERS
             @media #{$browser-ie} {} //IE
@@ -53,6 +55,7 @@ footer {
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -75,6 +78,7 @@ footer {
                 // DESKTOP
                     @media #{$screen-lg} {} //.COL-LG
                     @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
 
                 // BROWSERS
                     @media #{$browser-ie} {} //IE
@@ -93,6 +97,7 @@ footer {
                 // DESKTOP
                     @media #{$screen-lg} {} //.COL-LG
                     @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
 
                 // BROWSERS
                     @media #{$browser-ie} {} //IE
@@ -116,6 +121,7 @@ footer {
                 // DESKTOP
                     @media #{$screen-lg} {} //.COL-LG
                     @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
 
                 // BROWSERS
                     @media #{$browser-ie} {} //IE
@@ -133,6 +139,7 @@ footer {
                     // DESKTOP
                         @media #{$screen-lg} {} //.COL-LG
                         @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
 
                     // BROWSERS
                         @media #{$browser-ie} {} //IE
@@ -149,6 +156,7 @@ footer {
                     // DESKTOP
                         @media #{$screen-lg} {} //.COL-LG
                         @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
 
                     // BROWSERS
                         @media #{$browser-ie} {} //IE
@@ -170,6 +178,7 @@ footer {
                         // DESKTOP
                             @media #{$screen-lg} {} //.COL-LG
                             @media #{$screen-xl} {} //.COL-XL
+                            @media #{$screen-xxl} {} //.COL-XXL
 
                         // BROWSERS
                             @media #{$browser-ie} {} //IE
@@ -188,6 +197,7 @@ footer {
                             // DESKTOP
                                 @media #{$screen-lg} {} //.COL-LG
                                 @media #{$screen-xl} {} //.COL-XL
+                                @media #{$screen-xxl} {} //.COL-XXL
 
                             // BROWSERS
                                 @media #{$browser-ie} {} //IE
@@ -206,6 +216,7 @@ footer {
                     // DESKTOP
                         @media #{$screen-lg} {} //.COL-LG
                         @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
 
                     // BROWSERS
                         @media #{$browser-ie} {} //IE
@@ -223,6 +234,7 @@ footer {
                 // DESKTOP
                     @media #{$screen-lg} {} //.COL-LG
                     @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
 
                 // BROWSERS
                     @media #{$browser-ie} {} //IE
@@ -240,6 +252,7 @@ footer {
                     // DESKTOP
                         @media #{$screen-lg} {} //.COL-LG
                         @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
 
                     // BROWSERS
                         @media #{$browser-ie} {} //IE
@@ -259,6 +272,7 @@ footer {
                     // DESKTOP
                         @media #{$screen-lg} {} //.COL-LG
                         @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
 
                     // BROWSERS
                         @media #{$browser-ie} {} //IE
@@ -275,6 +289,7 @@ footer {
                     // DESKTOP
                         @media #{$screen-lg} {} //.COL-LG
                         @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
 
                     // BROWSERS
                         @media #{$browser-ie} {} //IE
@@ -290,6 +305,7 @@ footer {
                         // DESKTOP
                             @media #{$screen-lg} {} //.COL-LG
                             @media #{$screen-xl} {} //.COL-XL
+                            @media #{$screen-xxl} {} //.COL-XXL
 
                         // BROWSERS
                             @media #{$browser-ie} {} //IE
@@ -309,6 +325,7 @@ footer {
                             // DESKTOP
                                 @media #{$screen-lg} {} //.COL-LG
                                 @media #{$screen-xl} {} //.COL-XL
+                                @media #{$screen-xxl} {} //.COL-XXL
 
                             // BROWSERS
                                 @media #{$browser-ie} {} //IE
@@ -324,14 +341,13 @@ footer {
                                 // DESKTOP
                                     @media #{$screen-lg} {} //.COL-LG
                                     @media #{$screen-xl} {} //.COL-XL
+                                    @media #{$screen-xxl} {} //.COL-XXL
 
                                 // BROWSERS
                                     @media #{$browser-ie} {} //IE
 
                                 a {
                                     // GLOBAL
-                                        &:hover {} //:HOVER
-
                                     // MOBILE
                                         @media #{$screen-xs} {} //.COL-XS
                                         @media #{$screen-sm} {} //.COL-SM
@@ -341,6 +357,7 @@ footer {
                                     // DESKTOP
                                         @media #{$screen-lg} {} //.COL-LG
                                         @media #{$screen-xl} {} //.COL-XL
+                                        @media #{$screen-xxl} {} //.COL-XXL
 
                                     // BROWSERS
                                         @media #{$browser-ie} {} //IE
@@ -369,6 +386,7 @@ footer {
                     padding: $padding-xs $padding-none;
                 } //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -389,10 +407,13 @@ footer {
                 // DESKTOP
                     @media #{$screen-lg} {} //.COL-LG
                     @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
 
                 // BROWSERS
                     @media #{$browser-ie} {} //IE
             } //P
         } //#FOOTER-COPYRIGHT
+
     } //#FOOTER-PRIMARY
+    
 } //FOOTER

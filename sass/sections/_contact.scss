@@ -1,13 +1,15 @@
 /**
-    * sass/parts/hero.scss
+    * sass/sections/contact.scss
     * @package seem
     * @author Scott Shealy
     * @version 1.0.0
     * @copyright 02/21
 **/
 
-.hero {
+#contact {
     // GLOBAL
+        background-color: $color-grayscale-light-12;
+
     // MOBILE
         @media #{$screen-xs} {} //.COL-XS
         @media #{$screen-sm} {} //.COL-SM
@@ -22,14 +24,9 @@
     // BROWSERS
         @media #{$browser-ie} {} //IE
 
-    &-home {
+    .section-title {
         // GLOBAL
-            @extend .flexbox-center-all;
-            height: $hero-home-height;
-            background-attachment: fixed;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            padding-top: 0.00rem;
 
         // MOBILE
             @media #{$screen-xs} {} //.COL-XS
@@ -44,40 +41,10 @@
 
         // BROWSERS
             @media #{$browser-ie} {} //IE
+    } //.SECTION-TITLE
 
-        #{$text-headings-all} {
-            // GLOBAL
-                @extend .h3;
-                font-size: $hero-home-font-size;
-                text-align: center;
-                color: $color-grayscale-light-12;
-                margin: $margin-none;
-
-            // MOBILE
-                @media #{$screen-xs} {} //.COL-XS
-                @media #{$screen-sm} {} //.COL-SM
-                @media #{$screen-md} {} //.COL-MD
-                @media #{$device-mobile} {} //MOBILE
-
-            // DESKTOP
-                @media #{$screen-lg} {} //.COL-LG
-                @media #{$screen-xl} {} //.COL-XL
-                @media #{$screen-xxl} {} //.COL-XXL
-
-            // BROWSERS
-                @media #{$browser-ie} {} //IE
-        } //TEXT-HEADINGS-ALL
-    } //.HERO-HOME
-
-    &-subpage {
+    .wpcf7 {
         // GLOBAL
-            @extend .flexbox-center-all;
-            height: $hero-subpage-height;
-            background-attachment: fixed;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-
         // MOBILE
             @media #{$screen-xs} {} //.COL-XS
             @media #{$screen-sm} {} //.COL-SM
@@ -92,14 +59,8 @@
         // BROWSERS
             @media #{$browser-ie} {} //IE
 
-        #{$text-headings-all} {
+        form.wpcf7-form {
             // GLOBAL
-                @extend .h3;
-                font-size: $hero-subpage-font-size;
-                text-align: center;
-                color: $color-grayscale-light-12;
-                margin: $margin-none;
-
             // MOBILE
                 @media #{$screen-xs} {} //.COL-XS
                 @media #{$screen-sm} {} //.COL-SM
@@ -113,6 +74,50 @@
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
-        } //TEXT-HEADINGS-ALL
-    } //.HERO-SUBPAGE
-} //.HERO
+
+            input[type=text], textarea {
+                // GLOBAL
+                    &:focus, &:active {
+                        outline: 0.12rem solid $text-link-color;
+                    } //:FOCUS
+
+                    &::placeholder {
+                        color: $color-grayscale-light-6;
+                    } //::PLACEHOLDER
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //INPUT, TEXTAREA
+
+            input[type=submit] {
+                // GLOBAL
+                    margin: $margin-none !important;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //INPUT[SUBMIT]
+        } //FORM.WPCF7-FORM
+    } //.WPCF7
+} //#CONTACT

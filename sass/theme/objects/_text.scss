@@ -78,6 +78,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -96,6 +97,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -114,6 +116,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -132,6 +135,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -150,6 +154,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -168,6 +173,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -186,10 +192,64 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
         } //TEXT-HEADINGS-H6
+
+        .section-title {
+            // GLOBAL
+                padding-top: 2.00rem;
+                padding-bottom: 3.00rem;
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {
+                    padding-left: $padding-xs;
+                    padding-right: $padding-xs;
+                } //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            #{$text-headings-all}.elementor-heading-title {
+                // GLOBAL
+                    font-family: $heading-text !important;
+                    text-align: center;
+                    text-decoration: underline;
+                    text-decoration-color: #00863d;
+                    text-underline-offset: 1.00rem;
+                    margin: $margin-none;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {
+                        font-size: 2.00em;
+                        text-decoration-thickness: 0.25rem;
+                    } //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {
+                        font-size: 3.00em;
+                        text-decoration-thickness: 0.35rem;
+                    } //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+            } //TEXT-HEADINGS-ALL
+        } //.SECTION-TITLE
 
 // BODY
     // SETTINGS
@@ -216,6 +276,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -234,6 +295,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -252,6 +314,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -268,6 +331,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE
@@ -297,6 +361,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE

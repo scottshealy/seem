@@ -19,6 +19,7 @@
     // DESKTOP
         @media #{$screen-lg} {} //.COL-LG
         @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
 
     // BROWSERS
         @media #{$browser-ie} {} //IE
@@ -39,6 +40,7 @@ html {
     // DESKTOP
         @media #{$screen-lg} {} //.COL-LG
         @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
 
     // BROWSERS
         @media #{$browser-ie} {} //IE
@@ -80,6 +82,9 @@ body {
         @media #{$screen-xl} {
             font-size: $font-size-desktop;
         } //.COL-XL
+        @media #{$screen-xxl} {
+            font-size: $font-size-desktop;
+        } //.COL-XXL
 
     // BROWSERS
         @media #{$browser-ie} {} //IE

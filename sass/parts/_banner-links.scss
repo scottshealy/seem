@@ -5,3 +5,155 @@
     * @version 1.0.0
     * @copyright 02/21
 **/
+
+.banner-link {
+    // GLOBAL
+        height: $banner-link-height;
+
+        &:hover {
+            opacity: 0.85;
+        } //:HOVER
+
+    // MOBILE
+        @media #{$screen-xs} {} //.COL-XS
+        @media #{$screen-sm} {} //.COL-SM
+        @media #{$screen-md} {} //.COL-MD
+        @media #{$device-mobile} {} //MOBILE
+
+    // DESKTOP
+        @media #{$screen-lg} {} //.COL-LG
+        @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
+
+    // BROWSERS
+        @media #{$browser-ie} {} //IE
+
+    .elementor-widget-wrap {
+        // GLOBAL
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center 70.00%;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+    } //.ELEMENTOR-WIDGET-WRAP
+
+    .elementor-background-overlay {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+    } //.ELEMENTOR-BACKGROUND-OVERLAY
+
+    .elementor-element.elementor-widget-html {
+        // GLOBAL
+            @extend .flexbox;
+            height: 100.00%;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //MOBILE
+
+        // DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+
+        // BROWSERS
+            @media #{$browser-ie} {} //IE
+
+        .elementor-widget-container {
+            // GLOBAL
+                height: 100.00%;
+                width: 100.00%;
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //MOBILE
+
+            // DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+
+            // BROWSERS
+                @media #{$browser-ie} {} //IE
+
+            a {
+                // GLOBAL
+                    @extend .flexbox-center-all;
+                    height: 100.00%;
+                    width: 100.00%;
+                    padding: $padding-md;
+
+                // MOBILE
+                    @media #{$screen-xs} {} //.COL-XS
+                    @media #{$screen-sm} {} //.COL-SM
+                    @media #{$screen-md} {} //.COL-MD
+                    @media #{$device-mobile} {} //MOBILE
+
+                // DESKTOP
+                    @media #{$screen-lg} {} //.COL-LG
+                    @media #{$screen-xl} {} //.COL-XL
+                    @media #{$screen-xxl} {} //.COL-XXL
+
+                // BROWSERS
+                    @media #{$browser-ie} {} //IE
+
+                span {
+                    // GLOBAL
+                        font-family: $font-serif;
+                        font-size: 2.00em;
+                        font-weight: 400;
+                        line-height: $line-height-none;
+                        text-transform: uppercase;
+                        color: $color-grayscale-light-12;
+                        padding: $padding-sm;
+                        border: 1px solid $color-grayscale-light-12;
+
+                    // MOBILE
+                        @media #{$screen-xs} {} //.COL-XS
+                        @media #{$screen-sm} {} //.COL-SM
+                        @media #{$screen-md} {} //.COL-MD
+                        @media #{$device-mobile} {} //MOBILE
+
+                    // DESKTOP
+                        @media #{$screen-lg} {
+                            font-size: 2.50em;
+                        } //.COL-LG
+                        @media #{$screen-xl} {} //.COL-XL
+                        @media #{$screen-xxl} {} //.COL-XXL
+
+                    // BROWSERS
+                        @media #{$browser-ie} {} //IE
+                } //SPAN
+            } //A
+        } //.ELEMENTOR-WIDGET-CONTAINER
+    } //.ELEMENTOR-ELEMENT.ELEMENTOR-WIDGET-HTML
+    
+} //.BANNER-LINK

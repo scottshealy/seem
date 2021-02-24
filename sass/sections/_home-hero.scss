@@ -1,12 +1,12 @@
 /**
-    * sass/pages/contact.scss
+    * sass/sections/home-hero.scss
     * @package seem
     * @author Scott Shealy
     * @version 1.0.0
     * @copyright 02/21
 **/
 
-body#contact {
+#home-hero {
     // GLOBAL
     // MOBILE
         @media #{$screen-xs} {} //.COL-XS
@@ -21,4 +21,4 @@ body#contact {
 
     // BROWSERS
         @media #{$browser-ie} {} //IE
-} //#CONTACT
+} //#HOME-HERO

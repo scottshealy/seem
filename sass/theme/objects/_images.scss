@@ -17,6 +17,7 @@
     // DESKTOP
         @media #{$screen-lg} {} //COL-LG
         @media #{$screen-xl} {} //COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
 
     // BROWSERS
         @media #{$browser-ie} {} //IE
@@ -38,6 +39,7 @@
         // DESKTOP
             @media #{$screen-lg} {} //COL-LG
             @media #{$screen-xl} {} //COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
 
         // BROWSERS
             @media #{$browser-ie} {} //IE
@@ -59,6 +61,7 @@
             // DESKTOP
                 @media #{$screen-lg} {} //COL-LG
                 @media #{$screen-xl} {} //COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
 
             // BROWSERS
                 @media #{$browser-ie} {} //IE

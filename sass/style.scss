@@ -25,6 +25,14 @@
     @import "parts/footer";
     @import "parts/hero";
     @import "parts/banner-links";
+    @import "parts/forms";
+
+// @IMPORT | SECTIONS
+    @import "sections/about";
+    @import "sections/contact";
+    @import "sections/footprint";
+    @import "sections/home-hero";
+    @import "sections/members";
 
 // @IMPORT | PAGES
     @import "pages/index";

@@ -12,6 +12,7 @@
     $screen-md: "(min-width: 768px)";
     $screen-lg: "(min-width: 992px)";
     $screen-xl: "(min-width: 1200px)";
+    $screen-xxl: "(min-width: 1400px)";
 
 // DEVICES
     $device-phone: "(max-width: 575px)";
@@ -20,8 +21,9 @@
     $device-desktop: "(min-width: 992px)";
     $device-desktop-sm: "(min-width: 992px)";
     $device-desktop-md: "(min-width: 1200px)";
-    $device-desktop-lg: "(min-width: 1920px)";
-    $device-desktop-xl: "(min-width: 3840px)";
+    $device-desktop-lg: "(min-width: 1400px)";
+    $device-desktop-xl: "(min-width: 1920px)";
+    $device-desktop-xxl: "(min-width: 3840px)";
 
 // DISPLAYS
     $display-retina: "(-webkit-min-device-pixel-ratio: 2.00), (min-resolution: 192dpi)";
@@ -47,6 +49,7 @@
         // DESKTOP
             @media #{$screen-lg} {} //.COL-LG
             @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
 
         // BROWSERS
             @media #{$browser-ie} {} //IE
@@ -64,6 +67,7 @@
             @media #{$device-desktop-md} {} //DESKTOP-MD
             @media #{$device-desktop-lg} {} //DESKTOP-LG
             @media #{$device-desktop-xl} {} //DESKTOP-XL
+            @media #{$device-desktop-xxl} {} //DESKTOP-XXL
 
     // MENUS
         // GLOBAL
